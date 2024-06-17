@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
     <Navbar expand="lg" className="nav-bar">
-      <Navbar.Brand as={Link} to={"/#"} className='brand-logo'><img className="img-fluid ms-2" src='../images/shopNow.png'/></Navbar.Brand>
+      <Navbar.Brand as={Link} to={"/home"} className='brand-logo'><img className="img-fluid ms-2" src='../images/shopNow.png'/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle-menu me-2' />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto fs-5">
