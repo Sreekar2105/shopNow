@@ -165,31 +165,32 @@ body
     font-size: 1rem;
    }
 
-   .card-title1
+   /* .card-title1
    {
-    /* font-size: 1.5rem; */
-   }
+     font-size: 1.5rem; 
+   } */
 
-   .card-para1
+   /* .card-para1
    {
-     /* font-size: 1rem;
-     margin: 0 1rem; */
-   }
+      font-size: 1rem;
+     margin: 0 1rem;
+   }*/
 
    .shop-img2
    {
     height: 60vh;
    }
 
+    /*
    .card-title2
    {
-    /* font-size: 1.75rem; */
+      font-size: 1.75rem;
    }
 
    .card-para2
    {
-    /* font-size: 1.2rem; */
-    /* margin: 0 1rem; */
+     font-size: 1.2rem; 
+     margin: 0 1rem;
    }
 /* 
    .slide-1,.slide-2,.slide-3
