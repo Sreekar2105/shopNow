@@ -6,7 +6,7 @@ function NewArrivals() {
     <>
        <p className='new-arrivals fs-1 fw-bold text-center mt-5 mb-3 mx-3 bg-light'>New Arrivals</p>
 
-       <Row xs={1} sm={2} md={3} lg={4} >
+       <Row xs={1} sm={2} md={3} lg={4} className='gx-0' >
         <Col>
           <Card className='m-3 new-arrivals-card'>
             <Card.Img className='new-arrivals-card-img img-fluid' variant="top" src="https://m.media-amazon.com/images/I/710qN4eow2L._SX679_.jpg" />
