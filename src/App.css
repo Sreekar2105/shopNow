@@ -1,38 +1,300 @@
-.App {
-  text-align: start;
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body
+{ 
+   background-color: #69626D;
+   overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+/********************************************   NAV-BAR   **************************************************/
+
+
+.nav-bar
+{
+    background-color: #3D52F0;
+}
+
+
+.brand-logo img
+{
+  width:4rem;
+  height:4rem;
+  border-radius: 50%; 
+}
+
+.me-auto
+{
+    margin-left: 3vw;
+} 
+
+ .nav-items
+{
+    font-size: 1.25rem;
+    margin: 0 0.5vw;
+    color: #E2E2E2;
+    font-weight: 700;
+} 
+
+
+#basic-nav-dropdown
+{
+    color: #E2E2E2;
+}
+
+
+.dropdown-items
+{
+    color: #E64833;
+    font-weight: 600;
+}
+
+
+.cart-icon
+{
+    margin-left: 25vw;
+    color:#E2E2E2;
+    font-size: 2rem;
+}
+
+.cart
+{
+    color:#E2E2E2;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.toggle-menu
+{
+    background-color:white;
+}
+
+.nav-items:hover
+{
+  color:#393A10;
+}
+
+
+
+/*****************************************   HOME PAGE   ***********************************************************/
+.shop-img
+{
+    width:100%;
+    height:85vh;
+}
+
+.card-title1
+{ 
+    color:#071013;
+}
+
+.card-para1
+{
+    color:#E0F2E9;
+}
+
+.shop-img2
+{
+    filter: blur(2px);
+    height:70vh;
+}
+
+.card-title2
+{
+    color:white;
+}
+
+.card-para2
+{
+    color:#1A1423;
+}
+
+
+.top-brands-list-items
+{
+    margin : 1rem;
+    background-color: #FFFFFF;
+    border:2px solid #210203;
+}
+
+.new-arrivals
+{
+    color: #FF2E00;
+}
+
+.new-arrivals-card-img,.mens-clothing-card-img
+{
+   width: 250px;
+   height: 250px;
+} 
+
+.new-arrivals-card,.mens-clothing-card
+{
+    align-items: center;
+    text-align: center;
+    height: 95%;
+}
+
+.footer
+{
+    background-color: #E2FADB;
+    color:#19297C;
+}
+
+
+.card
+{
+    overflow-x: auto;
+}
+
+
+/**************************************************   MOBILES PAGE   *********************************************************/
+
+
+.mobiles-div
+{
+    background-color: #BBC2E2;
+}
+
+.mobile-brands-title
+{
+    background-color: #DCED31;
+    color:#841C26;
+}
+
+
+.mobile-brands-card-img,.laptop-brands-card-img
+{
+  height:40vh;
+  /* filter: blur(2px); */
+}
+
+
+.mobile-brands-card-title
+{
+    color:#312F2F;
+}
+
+.mobile-brands-card-text
+{
+    color: #353B3C;
+    font-size: 1.4rem;
+}
+
+
+
+/**************************************************   LAPTOPS PAGE   *********************************************************/
+
+
+.laptops-div
+{
+    background-color: #F34213;
+}
+
+
+.laptop-brands-title
+{
+    background-color: #F4E3B2;
+    color:#326273;
+}
+
+.laptop-brands-card-title
+{
+    color:#000000;
+}
+
+.laptop-brands-card-text
+{
+    color: #3A1772;
+    font-size: 1.2rem;
+}
+
+
+/**************************************************   MEN'S FASHION PAGE   *********************************************************/
+
+
+/**************************************************   CLOTHING PAGE   *********************************************************/
+
+.mens-clothing-div
+{
+    background-color: #A3BCF9;
+}
+
+.mens-clothing
+{
+    background-color: #DFF8EB;
+    color: #710000;
+}
+
+.mens-clothing-card
+{
+    background-color: #FFF7F8;
+}
+
+.mens-clothing-card-img
+{
+    margin-top: 5px;
+    border:3px solid #FF7F11;
+    padding: 7px;
+}
+
+
+
+
+/*************************************************   MEDIA QUERIES   ******************************************************/
+@media screen and (max-width:575px) 
+{
+   .nav-items,.dropdown-items
+   {
+    font-size: 1.2rem;
+   }
+
+   .shop-img2
+   {
+    height: 60vh;
+   }
+
+   .card-para2
+   {
+     font-size: 1.2rem; 
+     margin: 0 1rem;
+   }
+
+   .mobile-brands-card-text,.laptop-brands-card-text
+   {
+      font-size: 1rem;
+   }
+
+
+} 
+
+ @media screen and (max-width : 991px)
+{
+    .cart-icon
+    {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1280px)
+{   
+   .cart-icon
+  {
+    margin-left: 10vw;
   }
-}
+} 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (min-width:992px) and (max-width:1158px)
+{
+    .nav-items
+    {
+        font-size: 1rem;
+    }
 }

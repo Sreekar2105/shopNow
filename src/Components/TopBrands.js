@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Button,Card,CardGroup,Row,Col} from 'react-bootstrap'
-import '../style.css';
+import {Card,Row,Col} from 'react-bootstrap'
+import '../App.css' 
+
 
 function TopBrands() {
     return (
          <>
-          <p className='top-brands fs-1 fw-bold text-center mt-5 mb-3 mx-3 bg-light text-danger'>Top Brands</p>
+          <p className='top-brands fs-1 fw-bold text-center mt-5 mb-3 mx-3 bg-light text-danger overflow-x-auto'>Top Brands</p>
 
           <Row xs={1} sm={2} md={3} lg={4} className='gx-0'>
-          <Col className='top-brands-col'>  
+            <Col className='top-brands-col'>  
             <Card as={Link} to={'/mobiles/apple'} className='top-brands-list-items'>
                <Card.Img className='brand-logo' fluid variant="top" src="https://www.logo.wine/a/logo/Apple_Inc./Apple_Inc.-Logo.wine.svg" />
             </Card>

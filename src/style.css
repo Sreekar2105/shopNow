@@ -12,6 +12,10 @@ body
 }
 
 
+
+/********************************************   NAV-BAR   **************************************************/
+
+
 .nav-bar
 {
     background-color: #3D52F0;
@@ -72,7 +76,14 @@ body
     background-color:white;
 }
 
+.nav-items:hover
+{
+  color:#393A10;
+}
 
+
+
+/*****************************************   HOME PAGE   ***********************************************************/
 .shop-img
 {
     width:100%;
@@ -82,17 +93,11 @@ body
 .card-title1
 { 
     color:#071013;
-    /* font-size: 2.5rem; */
-    /* position: relative;
-    top:2.5rem; */
 }
 
 .card-para1
 {
     color:#E0F2E9;
-    /* font-size: 1.25rem; */
-    /* position: relative;
-    top:8rem */
 }
 
 .shop-img2
@@ -104,33 +109,19 @@ body
 .card-title2
 {
     color:white;
-    /* font-size: 2.5rem; */
-    /* position: relative;
-    top:4rem; */
 }
 
 .card-para2
 {
     color:#1A1423;
-    /* font-size: 1.5rem; */
-    /* position: relative;
-    top:5rem; */
 }
 
 
 .top-brands-list-items
 {
     margin : 1rem;
-    /* padding-right: 0; */
     background-color: #FFFFFF;
     border:2px solid #210203;
-}
-
-.top-brands-col
-{
-    /* margin:1rem 0.25rem; 
-  padding-right:0;*/
-  overflow-x: hidden;
 }
 
 .new-arrivals
@@ -156,14 +147,15 @@ body
     color:#19297C;
 }
 
-.nav-items:hover
+
+.card
 {
-  color:#393A10;
+    overflow-x: auto;
 }
 
-.card{
-    padding-right:0;
-}
+
+/*************************************************   MEDIA QUERIES   ******************************************************/
+
 
 @media screen and (max-width:575px) 
 {
@@ -172,26 +164,9 @@ body
     font-size: 1rem;
    }
 
-   /* .card-title1
-   {
-     font-size: 1.5rem; 
-   } */
-
-   /* .card-para1
-   {
-      font-size: 1rem;
-     margin: 0 1rem;
-   }*/
-
    .shop-img2
    {
     height: 60vh;
-   }
-
-    /*
-   .card-title2
-   {
-      font-size: 1.75rem;
    }
 
    .card-para2
@@ -199,13 +174,6 @@ body
      font-size: 1.2rem; 
      margin: 0 1rem;
    }
-/* 
-   .slide-1,.slide-2,.slide-3
-   {
-      height: 200px!important;
-   } */
-
-
 } 
 
  @media screen and (max-width : 991px)

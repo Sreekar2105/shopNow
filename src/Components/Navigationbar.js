@@ -4,17 +4,17 @@ import { Navbar,Nav, NavDropdown, } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import img1 from '../images/img1.png';
-import '../style.css'
+import '../App.css' 
 
 function Navigationbar() {
     return (
-        <div>
+        <>
             <Navbar expand="lg" className="nav-bar border-danger">
-                <Navbar.Brand as={Link} to={"/#"} className='brand-logo'><img src={img1} className='img-fluid ms-3' /></Navbar.Brand>
+                <Navbar.Brand as={Link} to={"#"} className='brand-logo'><img src={img1} className='img-fluid ms-3' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle-menu me-3 fs-4' />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto text-center">
-                        <Nav.Link as={Link} to={"/"} className='nav-items'>Home</Nav.Link>
+                        <Nav.Link as={Link} to={"/shopNow"} className='nav-items'>Home</Nav.Link>
                         <Nav.Link as={Link} to={"/mobiles"} className='nav-items'>Mobiles</Nav.Link>
                         <Nav.Link as={Link} to={"/laptops"} className='nav-items'>Laptops</Nav.Link>
                         <NavDropdown title="Men's Fashion" id="basic-nav-dropdown"
@@ -36,7 +36,7 @@ function Navigationbar() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+        </>
     )
 }
 

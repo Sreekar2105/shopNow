@@ -2,11 +2,11 @@ import React from 'react'
 import img2 from '../images/img2.jpg';
 import img3 from '../images/img3.jpg';
 import { Card } from 'react-bootstrap';
-import '../style.css'
+import '../App.css' 
 
 function Intro() {
     return (
-        <div>
+        <>
             <Card className="bg-secondary">
                 <Card.Img src={img2} alt="Card image" className='shop-img opacity-50' />
                 <Card.ImgOverlay className='card-text text-center overflow-x-hidden d-flex flex-column justify-content-center align-items-center'>
@@ -26,7 +26,7 @@ function Intro() {
                     </Card.Text>
                 </Card.ImgOverlay>
             </Card>
-        </div>
+        </>
     )
 }
 

@@ -1,12 +1,14 @@
 import React from 'react';
-import { Card,Row,Col,Button } from 'react-bootstrap';
+import { Card,Row,Col } from 'react-bootstrap';
+import '../App.css' 
+
 
 function NewArrivals() {
   return (
     <>
-       <p className='new-arrivals fs-1 fw-bold text-center mt-5 mb-3 mx-3 bg-light'>New Arrivals</p>
+       <p className='new-arrivals fs-1 fw-bold text-center mt-5 mb-3 mx-3 bg-light overflow-x-auto'>New Arrivals</p>
 
-       <Row xs={1} sm={2} md={3} lg={4} className='gx-0' >
+       <Row  xs={1} sm={2} md={3} lg={4} className='gx-0' >
         <Col>
           <Card className='m-3 new-arrivals-card'>
             <Card.Img className='new-arrivals-card-img img-fluid' variant="top" src="https://m.media-amazon.com/images/I/710qN4eow2L._SX679_.jpg" />
@@ -103,7 +105,7 @@ function NewArrivals() {
 
         <Col>
           <Card className='m-3 new-arrivals-card'>
-            <Card.Img className='new-arrivals-card-img img-fluid mt-4' variant="top" src="https://justintime.in/cdn/shop/products/D011.jpg?v=1682005814&width=823" />
+            <Card.Img className='new-arrivals-card-img img-fluid mt-2' variant="top" src="https://justintime.in/cdn/shop/products/D011.jpg?v=1682005814&width=823" />
             <Card.Body>
               <Card.Title className='new-arrivals-title text-center fs-4 fw-bold'>CASIO</Card.Title>
               <Card.Text className='fs-5 fw-bold'>
@@ -224,7 +226,7 @@ function NewArrivals() {
     </Row>
 
 
-    <p className='footer mt-3 mb-0 text-center fs-3'>Copyright &#169; 2024 <span style={{color:"#19297C",fontWeight:"600"}}>shopNow</span></p>
+    <p className='footer mt-3 mb-0 text-center fs-3 overflow-x-auto'>Copyright &#169; 2024 <span style={{color:"#19297C",fontWeight:"600"}}>shopNow</span></p>
     </>
   )
 }
