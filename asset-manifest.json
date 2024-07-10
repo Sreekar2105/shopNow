@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopNow/static/css/main.5a81db0a.css",
-    "main.js": "/shopNow/static/js/main.0fc3cc8a.js",
+    "main.js": "/shopNow/static/js/main.9c6962a7.js",
     "static/js/453.2292557c.chunk.js": "/shopNow/static/js/453.2292557c.chunk.js",
     "static/media/img3.jpg": "/shopNow/static/media/img3.b2c9540fede1517f43f8.jpg",
     "static/media/img2.jpg": "/shopNow/static/media/img2.936d5f2b2945f70f5f11.jpg",
@@ -20,11 +20,11 @@
     "static/media/lenovo.avif": "/shopNow/static/media/lenovo.917ac1f4ecafe59e9cf7.avif",
     "index.html": "/shopNow/index.html",
     "main.5a81db0a.css.map": "/shopNow/static/css/main.5a81db0a.css.map",
-    "main.0fc3cc8a.js.map": "/shopNow/static/js/main.0fc3cc8a.js.map",
+    "main.9c6962a7.js.map": "/shopNow/static/js/main.9c6962a7.js.map",
     "453.2292557c.chunk.js.map": "/shopNow/static/js/453.2292557c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a81db0a.css",
-    "static/js/main.0fc3cc8a.js"
+    "static/js/main.9c6962a7.js"
   ]
 }
