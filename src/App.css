@@ -7,8 +7,8 @@
 
 body
 { 
-   background-color: #69626D;
-   overflow-x: hidden;
+    background-color: #0B3954;
+    overflow-x: hidden;
 }
 
 
@@ -84,6 +84,26 @@ body
 
 
 /*****************************************   HOME PAGE   ***********************************************************/
+
+
+.card
+{
+    overflow-x: auto;
+    background-color: #F0C808;
+    border: 8px solid #FDF7FA;
+}
+
+.title
+{
+   background-color: #FE621D;
+   color:#FFFAFB;
+}
+
+.bg-img1,.bg-img2
+{
+    border: none;
+}
+
 .shop-img
 {
     width:100%;
@@ -121,26 +141,40 @@ body
 {
     margin : 1rem;
     background-color: #FFFFFF;
-    border:2px solid #210203;
+    border:3px solid #FF3C38;
 }
 
-.new-arrivals
+.card-img-top
 {
-    color: #FF2E00;
+    width: 250px;
+    height:250px;
+    margin-top: 10px;
+    padding: 7px;
 }
 
-.new-arrivals-card-img,.mens-clothing-card-img
+.brand-logo,.mobile-brands-card-img,.laptop-brands-card-img
 {
-   width: 250px;
-   height: 250px;
-} 
+    width: auto;
+    height: auto;
+}
 
-.new-arrivals-card,.mens-clothing-card
+
+.brand-logo,.mobile-brands-card-img,.laptop-brands-card-img
+{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.new-arrivals-card,.mens-clothing-card,.mens-watches-card,.mens-shoes-card,.womens-clothing-card,.handbags-card,.womens-footwear-card
+,.apple-products-card,.samsung-mobiles-card,.oppo-mobiles-card,.lenovo-laptops-card,.dell-laptops-card,.asus-laptops-card
+,.adidas-card,.nike-card,.apple-mobiles-card,.xiaomi-mobiles-card,.oneplus-mobiles-card,.iqoo-mobiles-card,.realme-mobiles-card
+,.hp-laptops-card,.acer-laptops-card
 {
     align-items: center;
     text-align: center;
     height: 95%;
-}
+} 
+
 
 .footer
 {
@@ -148,11 +182,8 @@ body
     color:#19297C;
 }
 
+                             
 
-.card
-{
-    overflow-x: auto;
-}
 
 
 /**************************************************   MOBILES PAGE   *********************************************************/
@@ -160,32 +191,31 @@ body
 
 .mobiles-div
 {
-    background-color: #BBC2E2;
+    background-color: #8DA9C4;
 }
 
-.mobile-brands-title
+.mobile-brands-card
 {
-    background-color: #DCED31;
-    color:#841C26;
+    background-color: #BDD4E7;
+    border: 7px solid black;
 }
 
 
 .mobile-brands-card-img,.laptop-brands-card-img
 {
   height:40vh;
-  /* filter: blur(2px); */
 }
 
 
 .mobile-brands-card-title
 {
-    color:#312F2F;
+    color:#002400;
 }
 
 .mobile-brands-card-text
 {
-    color: #353B3C;
-    font-size: 1.4rem;
+    color: #0D3B66;
+    font-size: 1.5rem;
 }
 
 
@@ -195,65 +225,108 @@ body
 
 .laptops-div
 {
-    background-color: #F34213;
-}
+    background-color: #ABEBD2;
+} 
 
-
-.laptop-brands-title
+.laptop-brands-card
 {
-    background-color: #F4E3B2;
-    color:#326273;
+  background-color: #BEDCFE;
+  border: 5px solid #4F000B;
 }
 
 .laptop-brands-card-title
 {
-    color:#000000;
+    color:white;
 }
 
 .laptop-brands-card-text
 {
-    color: #3A1772;
+    color: white;
     font-size: 1.2rem;
 }
 
-
-/**************************************************   MEN'S FASHION PAGE   *********************************************************/
-
-
-/**************************************************   CLOTHING PAGE   *********************************************************/
-
-.mens-clothing-div
+.card-img-top
 {
-    background-color: #A3BCF9;
-}
-
-.mens-clothing
-{
-    background-color: #DFF8EB;
-    color: #710000;
-}
-
-.mens-clothing-card
-{
-    background-color: #FFF7F8;
-}
-
-.mens-clothing-card-img
-{
-    margin-top: 5px;
-    border:3px solid #FF7F11;
-    padding: 7px;
+    transition: padding 0.2s ease-out;
 }
 
 
+.card:hover
+{
+    .card-img-top
+    {
+        padding: 20px;
+    }
+} 
+
+.card:hover
+{
+    .mobile-brands-card-img,.brand-logo,.laptop-brands-card-img
+    {
+        padding: 0;
+    }
+
+}
+
+
+/**************************************************   ADIDAS PRODUCTS PAGE   ****************************************************************/
+
+
+.adidas
+{
+   background-color: #F3A712;
+}
+                                              
+.adidas-title
+{
+   background-color: #90FFDC;
+   color:#111D13;
+}
+                                              
+.adidas-card
+{
+   background-color: #F4F3EE;
+   border: 5px solid black;
+}
+
+
+
+
+
+
+/**************************************************   NIKE PRODUCTS PAGE   ****************************************************************/
+
+
+.nike
+{
+   background-color: #2274A5;
+}
+                                              
+.nike-title
+{
+   background-color: #ABFAA9;
+   color:#FF521B;
+}
+                                              
+.nike-card
+{
+   background-color: #E0FBFC;
+   border: 5px solid black;
+}
 
 
 /*************************************************   MEDIA QUERIES   ******************************************************/
+
 @media screen and (max-width:575px) 
 {
    .nav-items,.dropdown-items
    {
     font-size: 1.2rem;
+   }
+  
+   .shop-img
+   {
+     height: 75vh;
    }
 
    .shop-img2
@@ -263,13 +336,13 @@ body
 
    .card-para2
    {
-     font-size: 1.2rem; 
+     /* font-size: 5rem;  */
      margin: 0 1rem;
    }
 
    .mobile-brands-card-text,.laptop-brands-card-text
    {
-      font-size: 1rem;
+      font-size: 1.25rem;
    }
 
 

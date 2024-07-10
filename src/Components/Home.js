@@ -3,13 +3,12 @@ import Intro from './Intro';
 import TopBrands from './TopBrands';
 import NewArrivals from './NewArrivals';
 
-function Home() 
-{
+function Home() {
   return (
     <>
-       <Intro/>
-       <TopBrands/>
-       <NewArrivals/>
+      <Intro />
+      <TopBrands />
+      <NewArrivals />
     </>
   )
 }

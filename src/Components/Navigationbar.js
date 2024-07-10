@@ -1,10 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import { Navbar,Nav, NavDropdown, } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, NavDropdown, } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import img1 from '../images/img1.png';
-import '../App.css' 
+import '../App.css'
 
 function Navigationbar() {
     return (
@@ -21,7 +21,7 @@ function Navigationbar() {
                             className='nav-items'>
                             <NavDropdown.Item as={Link} to={"/men's-clothing"} className='dropdown-items'>Clothing</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to={"/men's-watches"} className='dropdown-items'>Watches</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to={"/men's-footwear"} className='dropdown-items'>Footwear</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to={"/men's-shoes"} className='dropdown-items'>Shoes</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Women's Fashion" id="basic-nav-dropdown"
                             className='nav-items'>
