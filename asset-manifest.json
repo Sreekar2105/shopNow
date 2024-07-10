@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/shopNow/static/css/main.fc8662a8.css",
-    "main.js": "/shopNow/static/js/main.d9cf8821.js",
+    "main.css": "/shopNow/static/css/main.5a81db0a.css",
+    "main.js": "/shopNow/static/js/main.0fc3cc8a.js",
     "static/js/453.2292557c.chunk.js": "/shopNow/static/js/453.2292557c.chunk.js",
-    "static/media/realme.png": "/shopNow/static/media/realme.2d4e4c182313a2157162.png",
     "static/media/img3.jpg": "/shopNow/static/media/img3.b2c9540fede1517f43f8.jpg",
     "static/media/img2.jpg": "/shopNow/static/media/img2.936d5f2b2945f70f5f11.jpg",
     "static/media/hp.jpg": "/shopNow/static/media/hp.54cb6f496ff7b05cda57.jpg",
     "static/media/img1.png": "/shopNow/static/media/img1.07cd35e9c090b2216621.png",
+    "static/media/file.png": "/shopNow/static/media/file.c971270aaf613aa050eb.png",
     "static/media/xiaomi.png": "/shopNow/static/media/xiaomi.2998b8406a40488c4a15.png",
     "static/media/oppo.jpg": "/shopNow/static/media/oppo.cab042867cf7d19ef522.jpg",
+    "static/media/realme.jpg": "/shopNow/static/media/realme.a628e8867166373d5192.jpg",
     "static/media/oneplus.jpg": "/shopNow/static/media/oneplus.300bd181a006ca64b624.jpg",
-    "static/media/iqoo.png": "/shopNow/static/media/iqoo.937a44a557b87e2e4104.png",
     "static/media/apple.jpg": "/shopNow/static/media/apple.7e63b3c85ad066ac426e.jpg",
     "static/media/acer.jpg": "/shopNow/static/media/acer.7beb8442d9507991b52a.jpg",
     "static/media/dell.jpg": "/shopNow/static/media/dell.9ab365e526bb98d344d4.jpg",
+    "static/media/iqoo.jpg": "/shopNow/static/media/iqoo.03c8cbbdf20ac7d0a848.jpg",
     "static/media/samsung.jpg": "/shopNow/static/media/samsung.5aed602673b2849ac727.jpg",
     "static/media/lenovo.avif": "/shopNow/static/media/lenovo.917ac1f4ecafe59e9cf7.avif",
     "index.html": "/shopNow/index.html",
-    "main.fc8662a8.css.map": "/shopNow/static/css/main.fc8662a8.css.map",
-    "main.d9cf8821.js.map": "/shopNow/static/js/main.d9cf8821.js.map",
+    "main.5a81db0a.css.map": "/shopNow/static/css/main.5a81db0a.css.map",
+    "main.0fc3cc8a.js.map": "/shopNow/static/js/main.0fc3cc8a.js.map",
     "453.2292557c.chunk.js.map": "/shopNow/static/js/453.2292557c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc8662a8.css",
-    "static/js/main.d9cf8821.js"
+    "static/css/main.5a81db0a.css",
+    "static/js/main.0fc3cc8a.js"
   ]
 }
