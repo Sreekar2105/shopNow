@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shopNow/static/css/main.fd38a222.css",
+    "main.css": "/shopNow/static/css/main.2235b32e.css",
     "main.js": "/shopNow/static/js/main.ac98ccd6.js",
     "static/js/453.2292557c.chunk.js": "/shopNow/static/js/453.2292557c.chunk.js",
     "static/media/img3.jpg": "/shopNow/static/media/img3.b2c9540fede1517f43f8.jpg",
@@ -19,12 +19,12 @@
     "static/media/samsung.jpg": "/shopNow/static/media/samsung.5aed602673b2849ac727.jpg",
     "static/media/lenovo.avif": "/shopNow/static/media/lenovo.917ac1f4ecafe59e9cf7.avif",
     "index.html": "/shopNow/index.html",
-    "main.fd38a222.css.map": "/shopNow/static/css/main.fd38a222.css.map",
+    "main.2235b32e.css.map": "/shopNow/static/css/main.2235b32e.css.map",
     "main.ac98ccd6.js.map": "/shopNow/static/js/main.ac98ccd6.js.map",
     "453.2292557c.chunk.js.map": "/shopNow/static/js/453.2292557c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd38a222.css",
+    "static/css/main.2235b32e.css",
     "static/js/main.ac98ccd6.js"
   ]
 }
