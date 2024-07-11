@@ -334,25 +334,9 @@ body
        width:75%;
        position: relative;
        left: 9%;
-
     }
 
-    .brand-logo
-    {
-      width: auto;
-      height: auto;
-    }
 
-    .mobile-brands-card,.laptop-brands-card
-    {
-        width:100%;
-        left: 0;
-    }
-
-    .mobile-brands-card-img,.laptop-brands-card-img
-    {
-        width: auto;
-    }
 
     .bg-img1,.bg-img2
    {
@@ -384,6 +368,23 @@ body
     {
         width: 200px;
         height: 200px;
+    }
+
+    .brand-logo
+    {
+      width: auto;
+      height: auto;
+    }
+
+     .mobile-brands-card,.laptop-brands-card
+    {
+        width:100%;
+        left: 0;
+    }
+
+    .mobile-brands-card-img,.laptop-brands-card-img
+    {
+        width: auto;
     }
 
 }
