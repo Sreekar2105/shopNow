@@ -313,7 +313,7 @@ let jeans = [
 
         <p className='title mens-clothing-formals-title display-5 fw-bold text-center mb-3 mx-3 py-2 rounded-3'>Formal Shirts</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4} className='gx-0' >
 
         {
              formalShirts.map((formalShirt,index)=>
@@ -347,7 +347,7 @@ let jeans = [
 
         <p className='title mens-clothing-casuals-title display-5 fw-bold text-center mt-4 mb-3 mx-3 py-2 rounded-3'>Casual Shirts</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4} className='gx-0' >
 
         {
              casualShirts.map((casualShirt,index)=>
@@ -380,7 +380,7 @@ let jeans = [
 
         <p className='title mens-clothing-tshirts-title display-5 fw-bold text-center mt-4 mb-3 mx-3 py-2 rounded-3'>T-Shirts</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4} className='gx-0' >
 
         {
              tShirts.map((tShirt,index)=>
@@ -414,7 +414,7 @@ let jeans = [
 
         <p className='title mens-clothing-kurtas-title display-5 fw-bold text-center mt-4 mb-3 mx-3 py-2 rounded-3'>Kurtas & Set</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4} className='gx-0' >
 
         {
              kurtas.map((kurta,index)=>
@@ -448,7 +448,7 @@ let jeans = [
 
         <p className='title mens-clothing-jeans-title display-5 fw-bold text-center mt-4 mb-3 mx-3 py-2 rounded-3'>Jeans</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4}className='gx-0' >
 
         {
              jeans.map((jean,index)=>

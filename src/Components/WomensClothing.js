@@ -192,7 +192,7 @@ let kurtis = [
 
         <p className='title womens-clothing-sarees-title display-5 fw-bold text-center mb-3 mx-3 py-2 rounded-3' >Sarees</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4} className='gx-0' >
 
         {
              sarees.map((saree,index)=>
@@ -226,7 +226,7 @@ let kurtis = [
 
         <p className='title womens-clothing-tops-title display-5 fw-bold text-center mt-4 mb-3 mx-3 py-2 rounded-3'>Tops</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4}className='gx-0' >
 
         {
              tops.map((top,index)=>
@@ -260,7 +260,7 @@ let kurtis = [
         
         <p className='title womens-clothing-kurtis-title display-5 fw-bold text-center mt-4 mb-3 mx-3 py-2 rounded-3'>Kurtas & Kurtis</p>
 
-        <Row xs={2} md={3} lg={4} className='gx-0' >
+        <Row xs={1} md={2} xl={4} className='gx-0' >
 
         {
              kurtis.map((kurti,index)=>

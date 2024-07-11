@@ -106,7 +106,6 @@ body
 
 .shop-img
 {
-    width:100%;
     height:85vh;
 }
 
@@ -152,7 +151,7 @@ body
     padding: 7px;
 }
 
-.brand-logo,.mobile-brands-card-img,.laptop-brands-card-img
+.brand-logo
 {
     width: auto;
     height: auto;
@@ -203,7 +202,8 @@ body
 
 .mobile-brands-card-img,.laptop-brands-card-img
 {
-  height:40vh;
+    width: auto;
+    height:40vh;
 }
 
 
@@ -317,36 +317,77 @@ body
 
 /*************************************************   MEDIA QUERIES   ******************************************************/
 
-@media screen and (max-width:575px) 
+@media screen and (max-width:991px) 
 {
-   .nav-items,.dropdown-items
-   {
-    font-size: 1.2rem;
-   }
-  
-   .shop-img
-   {
-     height: 75vh;
-   }
+    .shop-img
+    {
+      height: 75vh;
+    }
+ 
+    .shop-img2
+    {
+      height: 60vh;
+    }
 
-   .shop-img2
-   {
-    height: 60vh;
-   }
+    .card
+    {
+       width:75%;
+       position: relative;
+       left: 9%;
 
-   .card-para2
+    }
+
+    .brand-logo
+    {
+      width: auto;
+      height: auto;
+    }
+
+    .mobile-brands-card,.laptop-brands-card
+    {
+        width:100%;
+        left: 0;
+    }
+
+    .mobile-brands-card-img,.laptop-brands-card-img
+    {
+        width: auto;
+    }
+
+    .bg-img1,.bg-img2
    {
-     /* font-size: 5rem;  */
-     margin: 0 1rem;
+      width: 100%;
+      left:0
    }
 
    .mobile-brands-card-text,.laptop-brands-card-text
    {
-      font-size: 1.25rem;
+      font-size: 1em;
    }
-
-
 } 
+
+
+
+@media screen and (max-width:575px) 
+{
+    .nav-items,.dropdown-items
+    {
+      font-size: 1.2rem;
+    }
+ 
+    .card-para2
+    {
+      margin: 0 1rem;
+    }
+ 
+    .card-img-top
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
 
  @media screen and (max-width : 991px)
 {

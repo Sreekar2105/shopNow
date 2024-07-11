@@ -87,7 +87,7 @@ function NewArrivals() {
 
       <p className='title new-arrivals fs-1 fw-bold text-center mt-5 mb-3 mx-3 py-2 rounded-3 overflow-x-auto'>New Arrivals</p>
 
-      <Row xs={2} md={3} lg={4} className='gx-0' >
+      <Row xs={1} md={2} xl={4} className='gx-0' >
 
       {
         newArrivals.map((newArrival,index)=>
@@ -104,7 +104,7 @@ function NewArrivals() {
                         <p>Price : ₹{newArrival.price}</p>
                     </Card.Text>
                 </Card.Body>
-              </Card>
+              </Card> 
 
             </Col>
 

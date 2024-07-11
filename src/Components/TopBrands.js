@@ -9,7 +9,7 @@ function TopBrands() {
       <>
          <p className='title top-brands fs-1 fw-bold text-center mt-5 mb-3 mx-3 py-2 rounded-3 overflow-x-auto'>Top Brands</p>
 
-         <Row xs={2} md={3} lg={4} className='gx-0'>
+         <Row xs={1} md={2} xl={4} className='gx-0'>
             <Col className='top-brands-col'>
                <Card as={Link} to={'/mobiles/apple'} className='top-brands-list-items'>
                   <Card.Img className='brand-logo' fluid variant="top" src="https://www.logo.wine/a/logo/Apple_Inc./Apple_Inc.-Logo.wine.svg" />

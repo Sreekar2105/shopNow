@@ -85,7 +85,7 @@ function AsusLaptops()
 
     <p className='title asus-laptops-title display-5 fw-bold text-center mb-3 py-2'>Asus Laptops</p>
 
-    <Row xs={2} md={3} lg={4} className='gx-0' >
+    <Row xs={1} md={2} xl={4}className='gx-0' >
 
     {
         asusLaptops.map((asusLaptop,index)=>
