@@ -109,7 +109,7 @@ function MobilePage(props) {
                     handleCartShow()
                   }}> Add to Cart </Button>
 
-                  <Offcanvas show={cartShow} onHide={handleCartClose} placement='end' className="offcanvas">
+                  <Offcanvas show={cartShow} onHide={handleCartClose} placement='top' className="offcanvas">
                     <Offcanvas.Header closeButton>
                       <Offcanvas.Title className='fs-4'><img src={success}/><span className='ms-2 mt-1'>Added to Cart</span></Offcanvas.Title>
                     </Offcanvas.Header>
