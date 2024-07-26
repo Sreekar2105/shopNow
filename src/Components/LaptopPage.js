@@ -91,7 +91,7 @@ function LaptopPage(props) {
                         <div className="product-description card" >
                             <div className="card-body">
 
-                                <p className="card-title product-title display-5 fw-semibold mt-4">{props.title}</p>
+                                <p className="card-title product-title display-5 fw-semibold mt-2">{props.title}</p>
                                 <p className="card-text product-text pt-3">{props.description}</p>
 
                                 <Stack spacing={1} className="d-inline-block">
@@ -109,7 +109,7 @@ function LaptopPage(props) {
                                    handleCartShow()
                                 }}> Add to Cart </Button> 
 
-                                <Offcanvas show={cartShow} onHide={handleCartClose} placement='top' className="offcanvas">
+                                <Offcanvas show={cartShow} onHide={handleCartClose} placement='end' className="offcanvas">
                     <Offcanvas.Header closeButton>
                       <Offcanvas.Title className='fs-4'><img src={success}/><span className='ms-2 mt-1'>Added to Cart</span></Offcanvas.Title>
                     </Offcanvas.Header>

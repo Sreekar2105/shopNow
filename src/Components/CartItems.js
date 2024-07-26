@@ -99,7 +99,7 @@ function CartItems()
 
 
                
-              <Col lg={9} className='product-data text-center d-flex ms-5 ms-lg-3 me-2 mb-2'>
+              <Col lg={9} className='product-data  d-flex ms-5 ms-lg-3 me-2 mb-2'>
                
                 <Col lg={9}>
                 <div>
@@ -110,6 +110,7 @@ function CartItems()
                  item.description.length > max_length ? `${item.description.substring(0,max_length)}...` : item.description}
 
               </p>
+
               <p className='cart-products-description'>
 
                 {item.description}
