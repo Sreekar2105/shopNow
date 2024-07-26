@@ -45,13 +45,13 @@ function MensClothing() {
     {
         title : "JOHN PLAYERS",
         img : "https://assets.ajio.com/medias/sys_master/root/20240116/6SCT/65a695628cdf1e0df5b9f674/-1117Wx1400H-443034285-maroon-MODEL.jpg",
-        description : " Men's Regular Fit Formal Shirt",
+        description : "Men's Regular Fit Formal Shirt",
         price: "600"
     },
 
     {
         title : "THE INDIAN GARAGE CO",
-        img : "https://assets.ajio.com/medias/sys_master/root/20240619/WG6O/6672f82e1d763220fad4a1e6/-1117Wx1400H-469520814-purple-MODEL2.jpg",
+        img : "https://assets.ajio.com/medias/sys_master/root/20240603/Pj7s/665ddec916fd2c6e6a47aaac/-1117Wx1400H-469545305-pink-MODEL2.jpg",
         description : "Men's Slim Fit Formal Shirt",
         price: "624"
     },
@@ -68,23 +68,23 @@ function MensClothing() {
 let casualShirts = [
   {
       title : "CB-COLEBROOK",
-      img : "https://m.media-amazon.com/images/I/51-pLhPHoBL._SY741_.jpg",
-      description : "Men's Casual Long Sleeve Linen Shirt",
+      img : "https://m.media-amazon.com/images/I/415gBxXNM4L._SX679_.jpg",
+      description : "Men's Regular Fit Solid Soft Touch Cotton Casual Shirt",
       price: "499"
   },
 
   {
-      title : "Lymio",
-      img : "https://m.media-amazon.com/images/I/71V5gEc8YVL._SY741_.jpg",
-      description : "Casual Shirt for Men|(Rib-Shirt)",
-      price: "459"
+      title : "INDIAN NEEDLE",
+      img : "https://assets.ajio.com/medias/sys_master/root/20240211/S8kN/65c8f97105ac7d77bb4f3dfa/-473Wx593H-467065035-olive-MODEL3.jpg",
+      description : "Men Striped Regular Fit Shirt",
+      price: "585"
   },
 
   {
       title : "KETCH",
       img : "https://assets.ajio.com/medias/sys_master/root/20211123/GApl/619d1362aeb2690110d34392/-473Wx593H-469034752-navymulti-MODEL.jpg",
       description : "Checked Slim Fit Shirt",
-      price: "450"
+      price: "387"
   },
 
   {
@@ -105,7 +105,7 @@ let casualShirts = [
       title : "LEVIS",
       img : "https://assets.ajio.com/medias/sys_master/root/20240415/xKGi/661d45b005ac7d77bb0a84ad/-473Wx593H-442399612-indigo-MODEL.jpg",
       description : "Men Slim Fit Shirt with Flap Pockets",
-      price: "599"
+      price: "2,599"
   },
 
   {
@@ -155,9 +155,9 @@ let tShirts = [
 
   {
       title : "EYEBOGLER",
-      img : "https://assets.ajio.com/medias/sys_master/root/20230628/qqrd/649bb265eebac147fc1d4588/-473Wx593H-465891440-teal-MODEL.jpg",
-      description : "Slim Fit Polo T-Shirt",
-      price: "325"
+      img : "https://assets.ajio.com/medias/sys_master/root/20240610/sNXZ/6667209f16fd2c6e6a73ce09/-1117Wx1400H-700069293-multi-MODEL.jpg",
+      description : "Regular Fit Polo T-Shirt with Collar Neck",
+      price: "475"
   },
 
   {
@@ -176,9 +176,9 @@ let tShirts = [
 
   {
       title : "U.S POLO ASSN.",
-      img : "https://uspoloassn.in/cdn/shop/files/6_46b10455-0f2b-4ee2-86d4-1c2ea04975fc_720x.jpg?v=1692214963",
-      description : "Vertical Stripe Slim Fit Polo Shirt",
-      price: "1,700"
+      img : "https://assets.ajio.com/medias/sys_master/root/20240607/V3tI/6662a98316fd2c6e6a561192/-1117Wx1400H-469536318-olive-MODEL.jpg",
+      description : "Men Printed Extra Slim Fit Polo T-Shirt",
+      price: "1,139"
   }
 ]
 
@@ -194,9 +194,9 @@ let kurtas = [
 
   {
       title : "SWTANTRA",
-      img : "https://assets.ajio.com/medias/sys_master/root/20240329/UtL8/6606c23c16fd2c6e6a8a9116/-1117Wx1400H-467211413-yellow-MODEL.jpg",
-      description : "Mandarin-Neck Kurta & Pyjamas Set",
-      price: "2,299"
+      img : "https://assets.ajio.com/medias/sys_master/root/20240601/XBXv/665ae02205ac7d77bb94af55/-1117Wx1400H-700030080-purple-MODEL.jpg",
+      description : "Men Long Kurta with Mandarin Collar",
+      price: "4,274"
   },
 
   {
@@ -208,20 +208,20 @@ let kurtas = [
 
   {
       title : "Manyavar",
-      img : "https://manyavar.scene7.com/is/image/manyavar/I02_IMGL5219%20copy_10-10-2021-05-15:650x900",
-      description : "Chanderi Pink Kurta Set",
+      img : "https://manyavar.scene7.com/is/image/manyavar/8905100280845.9611_25-04-2023-21-30:650x900",
+      description : "Carnation Pink Self Design Kurta Pajama",
       price: "2,999"
   },
 
   {
       title : "VASTRAMAY",
-      img : "https://img.tatacliq.com/images/i13/252Wx374H/MP000000019033709_252Wx374H_202309021431301.jpeg",
+      img : "https://assets.ajio.com/medias/sys_master/root/20240703/fEYB/668589441d763220fabfc07c/-1117Wx1400H-466925802-maroon-MODEL2.jpg",
       description : "Regular Fit Striped Kurta",
       price: "1,249"
   },
 
   {
-      title : "HANGUP",
+      title : "HANGUP TREND",
       img : "https://assets.ajio.com/medias/sys_master/root/20231112/Z5Ra/6550fb7dddf7791519800561/-1117Wx1400H-466779177-khaki-MODEL5.jpg",
       description : "Mandarin-Neck Kurta & Pyjamas Set",
       price: "625"
@@ -238,7 +238,7 @@ let kurtas = [
       title : "Peter England",
       img : "https://img.tatacliq.com/images/i18//437Wx649H/MP000000022657919_437Wx649H_202406202313331.jpeg",
       description : "Cotton Slim Fit Kurta",
-      price: "1,799"
+      price: "1,079"
   }
 ]
 
@@ -248,7 +248,7 @@ let jeans = [
       title : "LEE COOPER",
       img : "https://assets.ajio.com/medias/sys_master/root/20240502/Jlhz/6633a9a405ac7d77bb394d1a/-473Wx593H-442601800-olive-MODEL2.jpg",
       description : "Men Slim Fit Jeans",
-      price: "920"
+      price: "1,172"
   },
 
   {
@@ -266,10 +266,10 @@ let jeans = [
   },
 
   {
-      title : "MASTERLY WEFT",
-      img : "https://assets.ajio.com/medias/sys_master/root/20240416/pWuH/661e80d516fd2c6e6ab6b394/-1117Wx1400H-467254864-white-MODEL.jpg",
+      title : "STUDIO NEXX",
+      img : "https://assets.ajio.com/medias/sys_master/root/20230624/SbuW/6496092ba9b42d15c9ceff7a/-1117Wx1400H-465095581-blue-MODEL.jpg",
       description : "Men Relaxed Fit Jeans",
-      price: "840"
+      price: "660"
   },
 
   {
@@ -287,17 +287,17 @@ let jeans = [
   },
 
   {
-      title : "BEN MARTIN",
-      img : "https://assets.ajio.com/medias/sys_master/root/20240523/LRIp/664ec65916fd2c6e6a1d4c22/-473Wx593H-467340093-black-MODEL2.jpg",
-      description : "Men High-Rise Baggy Denim Jeans",
-      price: "870"
+      title : "B WOLVES",
+      img : "https://assets.ajio.com/medias/sys_master/root/20240327/RNXU/660374de16fd2c6e6a834615/-473Wx593H-467206190-black-MODEL4.jpg",
+      description : "Men High-Rise Baggy Fit Jeans",
+      price: "1,290"
   },
 
   {
       title : "PEPE JEANS",
-      img : "https://assets.ajio.com/medias/sys_master/root/20240411/5LVE/6617f5d416fd2c6e6aab29d4/-473Wx593H-442406067-blue-MODEL2.jpg",
-      description : "Men Holborne Straight Fit Jeans",
-      price: "1,760"
+      img : "https://assets.ajio.com/medias/sys_master/root/20240510/TbDP/663e343616fd2c6e6afbad73/-1117Wx1400H-442405946-lightblue-MODEL.jpg",
+      description : "Men Vapour Mid-Wash Slim Fit Jeans",
+      price: "2,649"
   }
 ]
 

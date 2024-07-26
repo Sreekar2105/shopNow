@@ -14,58 +14,58 @@ function HpLaptops()
         let hpLaptops = [
             {
                 title : "HP Victus",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701616609/Croma%20Assets/Computers%20Peripherals/Laptop/Images/301167_0_ww3nld.png?tr=w-640",
+                img : "https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/c/0/c08403046_1_4.png",
                 processor : "Intel Core i5, 12th Gen",
                 specs : "8GB RAM, 512GB SSD",
                 price: "56,999"
             },
     
             {
-                title : "HP Victus Fa0998TX",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715931910/Croma%20Assets/Computers%20Peripherals/Laptop/Images/272249_0_oojjvz.png?tr=w-640",
-                processor : "Intel Core i5, 12th Gen ",
+                title : "HP Spectre x360",
+                img : "https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/3/23c2_spectre_herbie_16_nightfall_black_t_9mp_ir_cam_fpr_win11_core_set_front_whitebg_2.png",
+                processor : "Intel Core Ultra 7",
+                specs : "16GB RAM, 1TB SSD",
+                price: "1,59,999"
+            },
+    
+            {
+                title : "HP Pavilion Plus 14",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1719385355/Croma%20Assets/Computers%20Peripherals/Laptop/Images/304952_0_rbsgkf.png?tr=w-640",
+                processor : "Intel Core i5, 13th Gen",
                 specs : "16GB RAM, 512GB SSD",
-                price: "69,399"
+                price: "72,999"
             },
     
             {
-                title : "HP 15s-fq5112TU",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715940769/Croma%20Assets/Computers%20Peripherals/Laptop/Images/259476_0_pggwua.png?tr=w-640",
-                processor : "Intel Core i5, 12th Gen",
+                title : "HP Envy x360 14",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1719374388/Croma%20Assets/Gaming/Laptop/Images/307697_3_xitu9f.png?tr=w-640",
+                processor : "AMD Ryzen 5",
                 specs : "16GB RAM, 512GB SSD",
-                price: "59,994"
+                price: "89,999"
             },
     
             {
-                title : "HP Envy 13 x360-bf0078TU",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1668662663/Croma%20Assets/Computers%20Peripherals/Laptop/Images/261100_0_zbl1wh.png?tr=w-640",
-                processor : "Intel Core i5, 12th Gen",
-                specs : "8GB RAM, 512GB SSD",
-                price: "79,990"
-            },
-    
-            {
-                title : "HP Pavilion DV2014TU",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715937707/Croma%20Assets/Computers%20Peripherals/Laptop/Images/259500_0_feuupr.png?tr=w-640",
+                title : "HP 15s",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718881754/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306835_0_k8cpkd.png?tr=w-640",
                 processor : "Intel Core i5, 12th Gen",
                 specs : "16GB RAM, 512GB SSD",
                 price: "66,990"
             },
     
             {
-                title : "HP Pavilion Plus EH0025TU",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715940733/Croma%20Assets/Computers%20Peripherals/Laptop/Images/259478_0_lolu3v.png?tr=w-640",
-                processor : "Intel Core i5, 12th Gen",
-                specs : "16GB RAM, 512GB SSD",
-                price: "71,994"
+                title : "HP OMEN 16",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701615819/Croma%20Assets/Computers%20Peripherals/Laptop/Images/275634_0_k6bc67.png?tr=w-640",
+                processor : "Intel Core i7, 13th Gen",
+                specs : "16GB RAM, 1TB SSD",
+                price: "1,19,999"
             },
     
             {
-                title : "HP x2 11 Chromebook",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1637664628/Croma%20Assets/Computers%20Peripherals/Laptop/Images/245652_vlzjip.png?tr=w-640",
-                processor : "Qualcomm Snapdragon 7c",
-                specs : "8GB RAM, 128GB SSD",
-                price: "39,990"
+                title : "HP 14a Chromebook",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715937431/Croma%20Assets/Computers%20Peripherals/Laptop/Images/244320_0_ujivux.png?tr=w-640",
+                processor : "Intel Celeron",
+                specs : "4GB RAM, 64GB",
+                price: "26,999"
             },
     
             {

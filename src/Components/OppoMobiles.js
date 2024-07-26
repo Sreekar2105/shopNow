@@ -41,7 +41,7 @@ function OppoMobiles()
             },
 
             {
-                title : "Oppo A3 Pro 5G ",
+                title : "Oppo A3 Pro 5G",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718966572/Croma%20Assets/Communication/Mobiles/Images/307491_0_uhzzqx.png?tr=w-640",
                 specs : "8GB RAM, 128GB",
                 price: "17,999"

@@ -29,7 +29,7 @@ function DellLaptops()
             },
     
             {
-                title : "DELL Inspiron 5330",
+                title : "DELL Inspiron 13 5330",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718356796/Croma%20Assets/Computers%20Peripherals/Laptop/Images/305864_0_n4bnoh.png?tr=w-640",
                 processor : "Intel Core Ultra 7, 14th Gen",
                 specs : "16GB RAM, 1TB SSD",
@@ -37,7 +37,7 @@ function DellLaptops()
             },
     
             {
-                title : "DELL Inspiron 7430 ",
+                title : "DELL Inspiron 7430",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1710426649/Croma%20Assets/Computers%20Peripherals/Laptop/Images/304179_kw5ntp.png?tr=w-640",
                 processor : "Intel Core i3, 13th Gen ",
                 specs : "8GB RAM, 512GB SSD",
@@ -45,11 +45,11 @@ function DellLaptops()
             },
     
             {
-                title : "DELL Inspiron 5445",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718356780/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306599_0_c35rna.png?tr=w-640",
-                processor : "AMD Ryzen 5, 8th Gen",
+                title : "DELL G16-7630",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715935726/Croma%20Assets/Computers%20Peripherals/Laptop/Images/273295_0_v4qf8w.png?tr=w-640",
+                processor : "Intel Core i9, 13th Gen",
                 specs : "16GB RAM, 1TB SSD",
-                price: "68,999"
+                price: "1,78,999"
             },
     
             {
@@ -61,11 +61,11 @@ function DellLaptops()
             },
     
             {
-                title : "DELL Vostro 3425",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718604702/Croma%20Assets/Computers%20Peripherals/Laptop/Images/274073_0_n3hur8.png?tr=w-640",
-                processor : "AMD Ryzen 5, 5th Gen",
-                specs : "16GB RAM, 512GB SSD",
-                price: "63,990"
+                title : "DELL Inspiron 14 5430",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718789138/Croma%20Assets/Computers%20Peripherals/Laptop/Images/274072_0_zgveqi.png?tr=w-640",
+                processor : "Intel Core i5, 13th Gen",
+                specs : "8GB RAM, 512GB SSD",
+                price: "59,990"
             },
     
             {

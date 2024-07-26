@@ -77,10 +77,10 @@ function MensWatches() {
   },
 
   {
-      title : "Fastrack",
-      img : "https://m.media-amazon.com/images/I/51HY2hVI+LL._SX679_.jpg",
+      title : "Sonata",
+      img : "https://m.media-amazon.com/images/I/51LUPfkcMsL._SX679_.jpg",
       description : "Men Stainless Steel Silver Analog Watch",
-      price: "1,599"
+      price: "1,099"
   },
 
   {

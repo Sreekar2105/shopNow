@@ -54,7 +54,7 @@ function NewArrivals() {
     },
 
     {
-        title : "ASUS Vivobook S14 ",
+        title : "ASUS Vivobook S 14",
         img : "https://dlcdnwebimgs.asus.com/gain/c6a3f3a4-a06b-4ff0-8d6e-48598f97ede2/w800",
         processor : "AMD Ryzen 5",
         specs : "(16GB RAM, 1TB SSD)",

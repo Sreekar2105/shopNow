@@ -15,26 +15,26 @@ function AcerLaptops()
     let acerLaptops = [
         {
             title : "acer Aspire 3",
-            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1689335006/Croma%20Assets/Computers%20Peripherals/Laptop/Images/272799_0_udmotm.png?tr=w-640",
-            processor : "Intel Core i3",
+            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715929228/Croma%20Assets/Computers%20Peripherals/Laptop/Images/269169_0_clvyml.png?tr=w-640",
+            processor : "AMD Ryzen 5",
             specs : "8GB RAM, 512GB SSD",
-            price: "31,490"
+            price: "37,999"
         },
 
         {
-            title : "acer Aspire 5 A515-57G",
-            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715933383/Croma%20Assets/Computers%20Peripherals/Laptop/Images/261170_0_sbpbsx.png?tr=w-640",
-            processor : "Intel Core i5, 12th Gen",
+            title : "acer Aspire 5",
+            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715936447/Croma%20Assets/Computers%20Peripherals/Laptop/Images/300126_0_knavnh.png?tr=w-640",
+            processor : "Intel Core i5, 13th Gen",
             specs : "16GB RAM, 512GB SSD",
-            price: "56,999"
+            price: "55,990"
         },
 
         {
             title : "acer Predator Helios Neo 16",
-            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715935621/Croma%20Assets/Computers%20Peripherals/Laptop/Images/272085_0_p80sj6.png?tr=w-640",
+            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1705050896/Croma%20Assets/Computers%20Peripherals/Laptop/Images/303726_m0shl9.png?tr=w-640",
             processor : "Intel Core i7, 13th Gen",
-            specs : "16GB RAM, 512GB SSD",
-            price: "1,14,990"
+            specs : "16GB RAM, 1TB SSD",
+            price: "1,09,999"
         },
 
         {
@@ -54,7 +54,7 @@ function AcerLaptops()
         },
 
         {
-            title : "acer AL1541",
+            title : "acer Aspire Lite",
             img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717068665/Croma%20Assets/Computers%20Peripherals/Laptop/Images/304898_0_gybfpq.png?tr=w-640",
             processor : "AMD Ryzen 7 ",
             specs : "16GB RAM, 512GB SSD",
@@ -64,14 +64,14 @@ function AcerLaptops()
         {
             title : "acer Nitro 5",
             img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1696518375/Croma%20Assets/Computers%20Peripherals/Laptop/Images/275083_0_uoc0c6.png?tr=w-640",
-            processor : "Intel Core i7, 12th Gen ",
-            specs : "16GB RAM, 1TB SSD",
-            price: "1,81,999"
+            processor : "Intel Core i5, 12th Gen",
+            specs : "16GB RAM, 512GB SSD",
+            price: "71,999"
         },
 
         {
-            title : "acer SFG14-73 ",
-            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718356857/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306053_0_ybhbff.png?tr=w-640",
+            title : "acer Aspire 3 Spin14",
+            img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718782990/Croma%20Assets/Computers%20Peripherals/Laptop/Images/275784_0_pkyuui.png?tr=w-640",
             processor : "Intel Core Ultra 5",
             specs : "16GB RAM, 512GB SSD",
             price: "77,990"

@@ -3,6 +3,8 @@ import { Row,Col,Card } from 'react-bootstrap'
 import { useEffect } from 'react';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import pic1 from '../images/download.png'
+import pic2 from '../images/pro5.png'
 
 function XiaomiMobiles() 
 {
@@ -44,7 +46,7 @@ function XiaomiMobiles()
                 title : "Xiaomi 14 Ultra 5G",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712665285/Croma%20Assets/Communication/Mobiles/Images/306083_rglnk9.png?tr=w-640",
                 specs : "16GB RAM, 512GB",
-                price: "1,19,999"
+                price: "99,999"
             },
 
             {
@@ -56,14 +58,14 @@ function XiaomiMobiles()
 
             {
                 title : "Xiaomi 12 Pro 5G",
-                img : "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/c/x/-original-imagqmtffg9sjjp6.jpeg?q=70&crop=false",
+                img :pic1,
                 specs : "12GB RAM, 256GB",
                 price: "51,990"
             },
 
             {
                 title : "Xiaomi 11T Pro 5G",
-                img : "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/j/d/11t-pro-5g-hyperphone-2107113si-xiaomi-original-imah27t2tsysjk6z.jpeg?q=70",
+                img : pic2,
                 specs : "8GB RAM, 256GB",
                 price: "31,999"
             }

@@ -50,9 +50,9 @@ function Adidas()
 
             {
                 title : "Adidas",
-                img : "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/8bbf5225b6064bffb5492617a1616e27_9366/CLUB_3_STRIPES_POLO_TEE_Orange_IV7644_21_model.jpg",
+                img : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/286a743abfc64e6eaf8baeb600782e3e_9366/CLUB_3_STRIPES_POLO_TEE_Blue_HB5837_21_model.jpg",
                 description : "CLUB 3 STRIPES POLO TEE",
-                price: "1,399"
+                price: "919"
             },
 
             {
@@ -66,7 +66,7 @@ function Adidas()
                 title : "Adidas",
                 img : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c955ac71fee43b1908caf070116e81f_9366/Future_Icons_3-Stripes_Regular_Pants_Grey_IB8531_01_laydown.jpg",
                 description : "FUTURE ICONS 3-STRIPES REGULAR PANTS (Women)",
-                price: "2,499"
+                price: "1,999"
             }
         ]
 

@@ -8,9 +8,9 @@ function WomensClothing() {
   let sarees = [
     {
         title : "MISS BEELEE",
-        img : "https://assets.ajio.com/medias/sys_master/root/20230522/8nnZ/646ac29842f9e729d79f7cd8/-1117Wx1400H-466045347-aqua-MODEL.jpg",
+        img : "https://assets.ajio.com/medias/sys_master/root/20240628/k4xk/667e148a1d763220fa56bf05/-473Wx593H-700128785-blue-MODEL4.jpg",
         description : "Kanjeevaram Saree with Contrast Border",
-        price: "735"
+        price: "765"
     },
 
     {
@@ -57,9 +57,9 @@ function WomensClothing() {
 
     {
         title : "SWORNOF",
-        img : "https://m.media-amazon.com/images/I/91Lp0gzvZVL._SY741_.jpg",
-        description : "kanjivaram banarasi silk saree",
-        price: "1,449"
+        img : "https://m.media-amazon.com/images/I/81ARMBo1uVL._SY741_.jpg",
+        description : "kanjivaram silk saree",
+        price: "1,299"
     }
 ]
 
@@ -103,7 +103,7 @@ let tops = [
   {
       title : "REUT",
       img : "https://m.media-amazon.com/images/I/61wymLSS0kL._SX679_.jpg",
-      description : "Apparel Womens Stripe Casual top",
+      description : "Apparel Women Stripe Casual top",
       price: "899"
   },
 

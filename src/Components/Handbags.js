@@ -35,10 +35,10 @@ function Handbags() {
         },
       
         {
-            title : "TEAL BY CHUMBAK",
-            img : "https://m.media-amazon.com/images/I/81PlyA-rnJL._SY675_.jpg",
-            description : "Ladies Satchel Bag with Printed Canvas",
-            price: "1,349"
+            title : "Pierre Cardin",
+            img : "https://m.media-amazon.com/images/I/71NjLVBvLoL._SY675_.jpg",
+            description : "Classy Handheld PU Leather Bag For Women",
+            price: "2,145"
         },
       
         {
@@ -63,17 +63,17 @@ function Handbags() {
         },
     
         {
-          title : "Generic",
+          title : "TARAIN COLLECTION",
           img : "https://m.media-amazon.com/images/I/41wUABdWUnL.jpg",
-          description : "Fashion Handbags Top Handle Satchel Purse",
+          description : "Women's Leather Shoulder Bag",
           price: "599"
       },
     
       {
           title : "Miraggio",
-          img : "https://m.media-amazon.com/images/I/61kBlhGF54L._SY675_.jpg",
-          description : "Satchel Handbag with Adjustable & Detachable Sling Strap",
-          price: "2,277"
+          img : "https://m.media-amazon.com/images/I/81p72JA3g2L._SY675_.jpg",
+          description : "Cleo Solid Handbag for Women",
+          price: "2,647"
       },
     
       {

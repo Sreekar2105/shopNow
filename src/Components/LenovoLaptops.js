@@ -31,13 +31,13 @@ function LenovoLaptops()
             {
                 title : "Lenovo IdeaPad Gaming 3",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715941421/Croma%20Assets/Computers%20Peripherals/Laptop/Images/272402_0_bskukm.png?tr=w-640",
-                processor : " AMD Ryzen 7",
+                processor : "AMD Ryzen 7",
                 specs : "8GB RAM, 512GB SSD",
                 price: "66,290"
             },
     
             {
-                title : "Lenovo Yoga Slim 7 ",
+                title : "Lenovo Yoga Slim 7",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1720075433/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306014_0_ppacea.png?tr=w-640",
                 processor : "Intel Core Ultra 7",
                 specs : "32GB RAM, 1TB SSD",

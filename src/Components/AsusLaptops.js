@@ -22,23 +22,23 @@ function AsusLaptops()
             },
     
             {
-                title : "ASUS ROG Strix G17",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1705066189/Croma%20Assets/Computers%20Peripherals/Laptop/Images/303511_oudgiy.png?tr=w-640",
-                processor : "AMD Ryzen 7",
-                specs : "16GB RAM, 512GB SSD",
-                price: "78,990"
+                title : "ASUS ROG Strix SCAR 17",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715929945/Croma%20Assets/Computers%20Peripherals/Laptop/Images/270089_0_szk8dn.png?tr=w-640",
+                processor : "AMD Ryzen 9",
+                specs : "16GB RAM, 1TB SSD",
+                price: "3,23,990"
             },
     
             {
-                title : "ASUS Vivobook 16X ",
+                title : "ASUS Vivobook 16X",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715935296/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256967_0_gysso9.png?tr=w-640",
                 processor : "AMD Ryzen 5",
                 specs : "16GB RAM, 512GB SSD",
-                price: "74,990"
+                price: "49,990"
             },
     
             {
-                title : "ASUS Zenbook 14 ",
+                title : "ASUS Zenbook 14",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717401683/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306624_q93a3v.png?tr=w-640",
                 processor : "Intel Evo Core Ultra 5",
                 specs : "16GB RAM, 1TB SSD",
@@ -46,23 +46,23 @@ function AsusLaptops()
             },
     
             {
-                title : "ASUS Vivobook 15 ",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715935045/Croma%20Assets/Computers%20Peripherals/Laptop/Images/266653_0_tutsez.png?tr=w-640",
-                processor : "Intel Core i3, 11th Gen",
-                specs : "8GB RAM, 512GB SSD",
-                price: "34,990"
+                title : "ASUS Vivobook S 15",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715935212/Croma%20Assets/Computers%20Peripherals/Laptop/Images/275494_0_gv4a2a.png?tr=w-640",
+                processor : "Intel Core i5, 13th Gen",
+                specs : "16GB RAM, 512GB SSD",
+                price: "76,990"
             },
     
             {
-                title : "ASUS TUF Gaming F15 ",
+                title : "ASUS TUF Gaming F15",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715929653/Croma%20Assets/Computers%20Peripherals/Laptop/Images/273491_0_xvztn7.png?tr=w-640",
                 processor : "Intel Core i7, 12th Gen",
                 specs : "16GB RAM, 512GB SSD",
-                price: "99,990"
+                price: "1,09,990"
             },
     
             {
-                title : "ASUS Vivobook S14",
+                title : "ASUS Vivobook S 14",
                 img : "https://dlcdnwebimgs.asus.com/gain/c6a3f3a4-a06b-4ff0-8d6e-48598f97ede2/w800",
                 processor : "AMD Ryzen 5",
                 specs : "16GB RAM, 1TB SSD",
@@ -70,7 +70,7 @@ function AsusLaptops()
             },
     
             {
-                title : "ASUS Vivobook S14 Flip",
+                title : "ASUS Vivobook S 14 Flip",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718604702/Croma%20Assets/Computers%20Peripherals/Laptop/Images/272243_0_dze1yg.png?tr=w-640",
                 processor : "Intel Core i5, 13th Gen ",
                 specs : "16GB RAM, 512GB SSD",

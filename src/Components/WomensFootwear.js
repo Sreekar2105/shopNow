@@ -3,6 +3,7 @@ import { Row,Col,Card } from 'react-bootstrap'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
+
 function WomensFootwear() {
 
     let footwears = [
@@ -121,6 +122,7 @@ function WomensFootwear() {
                 }
 
             </Row>
+        
 
             <Footer/>
 

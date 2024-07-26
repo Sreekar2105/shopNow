@@ -37,7 +37,7 @@ function OneplusMobiles()
                 title : "OnePlus 10 Pro 5G",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1666992010/Croma%20Assets/Communication/Mobiles/Images/250719_t2svgl.png?tr=w-640",
                 specs : "8GB RAM, 128GB",
-                price: "66,999"
+                price: "43,194"
             },
 
             {

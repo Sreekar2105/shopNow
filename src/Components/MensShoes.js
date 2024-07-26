@@ -23,7 +23,7 @@ function MensShoes() {
     {
         title : "U.S. POLO ASSN.",
         img : "https://m.media-amazon.com/images/I/81p-CVzadWL._SY675_.jpg",
-        description : "Mens Monton 5.0 Sneaker",
+        description : "Men's Monton 5.0 Sneaker",
         price: "1,919"
     },
   
@@ -37,7 +37,7 @@ function MensShoes() {
     {
         title : "Red Chief",
         img : "https://img.tatacliq.com/images/i13/437Wx649H/MP000000016261235_437Wx649H_202308300505351.jpeg",
-        description : "Mens Black Casual Boots",
+        description : "Men's Black Casual Boots",
         price: "2,477"
     },
   
@@ -58,15 +58,15 @@ function MensShoes() {
     {
         title : "Puma",
         img : "https://m.media-amazon.com/images/I/51tQP3Ha4YL._SY695_.jpg",
-        description : "men Propelix Sneaker",
+        description : "Men Propelix Sneaker",
         price: "2,309"
     },
 
     {
-      title : "The Aurous",
-      img : "https://m.media-amazon.com/images/I/41834ML+yWL.jpg",
-      description : "Owen Laceup Sneakers for Men",
-      price: "1,399"
+      title : "Woodland",
+      img : "https://img.tatacliq.com/images/i12/437Wx649H/MP000000018432188_437Wx649H_202307230201041.jpeg",
+      description : "Men's Casual Sneakers",
+      price: "1,751"
   },
 
   {
@@ -79,15 +79,15 @@ function MensShoes() {
   {
       title : "ASIAN",
       img : "https://m.media-amazon.com/images/I/81EpS49EiXL._SY695_.jpg",
-      description : " White Casual Sneaker Hi-Neck Shoes",
+      description : "White Casual Sneaker Hi-Neck Shoes",
       price: "699"
   },
 
   {
-      title : "The Aurous",
-      img : "https://m.media-amazon.com/images/I/51557JEiyvL.jpg",
-      description : "Raven Ankle High Laceup Sneakers",
-      price: "1,399"
+      title : "Zixer",
+      img : "https://m.media-amazon.com/images/I/71GpoUJ7gLL._SY675_.jpg",
+      description : "High Ankle Casual Shoes for Men",
+      price: "719"
   }
 
   ]

@@ -33,14 +33,14 @@ function SamsungMobiles() {
             },
 
             {
-                title : "SAMSUNG Galaxy M14 5G",
-                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1709106312/Croma%20Assets/Communication/Mobiles/Images/305190_kwxdnm.png?tr=w-640",
-                specs : "4GB RAM, 64GB",
-                price: "13,999"
+                title : "SAMSUNG Galaxy F14 5G",
+                img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1709029798/Croma%20Assets/Communication/Mobiles/Images/305170_hh04cz.png?tr=w-640",
+                specs : "6GB RAM, 128GB",
+                price: "13,490"
             },
 
             {
-                title : "SAMSUNG Galaxy A54 5G ",
+                title : "SAMSUNG Galaxy A54 5G",
                 img : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1708677831/Croma%20Assets/Communication/Mobiles/Images/270492_0_iyufdm.png?tr=w-640",
                 specs : "8GB RAM, 256GB",
                 price: "35,499"
