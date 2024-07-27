@@ -104,7 +104,7 @@ function MensShoes() {
       {
              shoes.map((shoe,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/men's-shoes/${shoe.title}/${shoe.description}`} className='m-3 mens-shoes-card text-decoration-none'>
                 <Card.Img className='mens-shoes-card-img img-fluid' variant="top" src={shoe.img} />
                 <Card.Body>
@@ -122,7 +122,6 @@ function MensShoes() {
 
       </Row>
 
-      <Footer/>
 
     </div>
 

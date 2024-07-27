@@ -80,7 +80,7 @@ function IqooMobiles()
     {
        iqooMobiles.map((iqooMobile,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/mobiles/iqoo/${iqooMobile.title}`} className='m-3 iqoo-mobiles-card text-decoration-none'>
                 <Card.Img className='iqoo-mobiles-card-img img-fluid' variant="top" src={iqooMobile.img} />
                 <Card.Body>
@@ -100,7 +100,6 @@ function IqooMobiles()
 
     </Row>
 
-    <Footer/>
 
 </div>
 

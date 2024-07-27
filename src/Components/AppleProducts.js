@@ -127,7 +127,6 @@ function AppleProducts() {
 
             </Row>
 
-            <Footer/>
 
         </div>
 

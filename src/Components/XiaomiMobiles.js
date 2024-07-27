@@ -82,7 +82,7 @@ function XiaomiMobiles()
     {
              xiaomiMobiles.map((xiaomiMobile,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/mobiles/xiaomi/${xiaomiMobile.title}`} className='m-3 xiaomi-mobiles-card text-decoration-none'>
                 <Card.Img className='xiaomi-mobiles-card-img img-fluid' variant="top" src={xiaomiMobile.img} />
                 <Card.Body>
@@ -102,7 +102,6 @@ function XiaomiMobiles()
 
     </Row>
 
-    <Footer/>
 
 </div>
 

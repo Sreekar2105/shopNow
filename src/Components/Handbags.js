@@ -105,7 +105,7 @@ function Handbags() {
 
              handbags.map((handbag,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/handbags/${handbag.title}/${handbag.description}`} className='m-3 handbags-card text-decoration-none'>
                 <Card.Img className='handbags-card-img img-fluid' variant="top" src={handbag.img} />
                 <Card.Body>
@@ -123,7 +123,6 @@ function Handbags() {
 
             </Row>
 
-            <Footer/>
 
         </div>
     )

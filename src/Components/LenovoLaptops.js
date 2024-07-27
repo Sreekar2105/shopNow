@@ -88,7 +88,7 @@ function LenovoLaptops()
     {
         lenovoLaptops.map((lenovoLaptop,index)=>
         (
-            <Col>
+            <Col className='mb-3'> 
               <Card as={Link} to={`/laptops/lenovo/${lenovoLaptop.title}`} className='m-3 lenovo-laptops-card text-decoration-none'>
                 <Card.Img className='lenovo-laptops-card-img img-fluid' variant="top" src={lenovoLaptop.img} />
                 <Card.Body>
@@ -108,7 +108,6 @@ function LenovoLaptops()
 
     </Row>
 
-    <Footer/>
 
 </div>
 

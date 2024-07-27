@@ -110,7 +110,6 @@ function Mobiles() {
         </Col>
       </Row>
 
-      <Footer/>
 
     </div>
   )

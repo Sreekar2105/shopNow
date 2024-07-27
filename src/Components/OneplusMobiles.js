@@ -80,7 +80,7 @@ function OneplusMobiles()
     {
        oneplusMobiles.map((oneplusMobile,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/mobiles/oneplus/${oneplusMobile.title}`} className='m-3 oneplus-mobiles-card text-decoration-none'>
                 <Card.Img className='oneplus-mobiles-card-img img-fluid' variant="top" src={oneplusMobile.img} />
                 <Card.Body>
@@ -100,7 +100,6 @@ function OneplusMobiles()
 
     </Row>
 
-    <Footer/>
 
 </div>
 

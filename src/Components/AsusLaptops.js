@@ -90,7 +90,7 @@ function AsusLaptops()
     {
         asusLaptops.map((asusLaptop,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/laptops/asus/${asusLaptop.title}`} className='m-3 asus-laptops-card text-decoration-none'>
                 <Card.Img className='asus-laptops-card-img img-fluid' variant="top" src={asusLaptop.img} />
                 <Card.Body>
@@ -111,7 +111,6 @@ function AsusLaptops()
 
     </Row>
 
-<Footer/>
 
 </div>
 )

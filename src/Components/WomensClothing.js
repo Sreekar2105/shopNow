@@ -197,7 +197,7 @@ let kurtis = [
         {
              sarees.map((saree,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/women's-clothing/sarees/${saree.title}/${saree.description}`} className='m-3 womens-clothing-card text-decoration-none'>
                 <Card.Img className='womens-clothing-card-img img-fluid' variant="top" src={saree.img} />
                 <Card.Body>
@@ -231,7 +231,7 @@ let kurtis = [
         {
              tops.map((top,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/women's-clothing/tops/${top.title}/${top.description}`} className='m-3 womens-clothing-card text-decoration-none'>
                 <Card.Img className='womens-clothing-card-img img-fluid' variant="top" src={top.img} />
                 <Card.Body>
@@ -265,7 +265,7 @@ let kurtis = [
         {
              kurtis.map((kurti,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/women's-clothing/kurtis/${kurti.title}/${kurti.description}`} className='m-3 womens-clothing-card text-decoration-none'>
                 <Card.Img className='womens-clothing-card-img img-fluid' variant="top" src={kurti.img} />
                 <Card.Body>
@@ -286,7 +286,6 @@ let kurtis = [
 
       </div>
 
-      <Footer/>
 
     </div>
 

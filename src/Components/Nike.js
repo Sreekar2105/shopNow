@@ -80,7 +80,7 @@ function Nike()
     {
              nikeProducts.map((nikeProduct,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/nike-products/${nikeProduct.description}`} className='m-3 nike-card text-decoration-none'>
                 <Card.Img className='nike-card-img img-fluid' variant="top" src={nikeProduct.img} />
                 <Card.Body>
@@ -99,7 +99,6 @@ function Nike()
 
     </Row>
 
-    <Footer/>
 
 </div>
 )

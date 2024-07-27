@@ -80,7 +80,6 @@ function Laptops() {
 
       </Row>
 
-      <Footer/>
 
     </div>
   )

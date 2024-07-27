@@ -81,7 +81,7 @@ function AppleMobiles()
     {
         appleMobiles.map((appleMobile,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/mobiles/apple/${appleMobile.title}`} className='m-3 apple-mobiles-card text-decoration-none'>
                 <Card.Img className='apple-mobiles-card-img img-fluid' variant="top" src={appleMobile.img} />
                 <Card.Body>
@@ -100,7 +100,6 @@ function AppleMobiles()
 
     </Row>
 
-    <Footer/>
 
 </div>
 

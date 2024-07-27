@@ -81,7 +81,7 @@ function Adidas()
     {
              adidasProducts.map((adidasProduct,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/adidas-products/${adidasProduct.description}`} className='m-3 adidas-card text-decoration-none'>
                 <Card.Img className='adidas-card-img img-fluid' variant="top" src={adidasProduct.img} />
                 <Card.Body>
@@ -100,7 +100,6 @@ function Adidas()
 
     </Row>
 
-    <Footer/>
 
 </div>
 )

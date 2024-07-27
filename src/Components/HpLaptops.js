@@ -88,7 +88,7 @@ function HpLaptops()
     {
         hpLaptops.map((hpLaptop,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/laptops/hp/${hpLaptop.title}`} className='m-3 hp-laptops-card text-decoration-none'>
                 <Card.Img className='hp-laptops-card-img img-fluid' variant="top" src={hpLaptop.img} />
                 <Card.Body>
@@ -109,7 +109,6 @@ function HpLaptops()
 
     </Row>
 
-    <Footer/>
 
 </div>
 

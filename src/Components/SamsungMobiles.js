@@ -79,7 +79,7 @@ function SamsungMobiles() {
             {
              samsungMobiles.map((samsungMobile,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/mobiles/samsung/${samsungMobile.title}`} className='m-3 samsung-mobiles-card text-decoration-none'>
                 <Card.Img className='samsung-mobiles-card-img img-fluid' variant="top" src={samsungMobile.img} />
                 <Card.Body>
@@ -99,7 +99,6 @@ function SamsungMobiles() {
 
             </Row>
 
-            <Footer/>
 
         </div>)
 }

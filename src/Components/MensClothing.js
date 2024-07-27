@@ -318,7 +318,7 @@ let jeans = [
         {
              formalShirts.map((formalShirt,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/men's-clothing/formal-shirts/${formalShirt.title}/${formalShirt.description}`} className='m-3 mens-clothing-card text-decoration-none'>
                 <Card.Img className='mens-clothing-card-img img-fluid' variant="top" src={formalShirt.img} />
                 <Card.Body>
@@ -352,7 +352,7 @@ let jeans = [
         {
              casualShirts.map((casualShirt,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/men's-clothing/casual-shirts/${casualShirt.title}/${casualShirt.description}`} className='m-3 mens-clothing-card text-decoration-none'>
                 <Card.Img className='mens-clothing-card-img img-fluid' variant="top" src={casualShirt.img} />
                 <Card.Body>
@@ -385,7 +385,7 @@ let jeans = [
         {
              tShirts.map((tShirt,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/men's-clothing/t-shirts/${tShirt.title}/${tShirt.description}`} className='m-3 mens-clothing-card text-decoration-none'>
                 <Card.Img className='mens-clothing-card-img img-fluid' variant="top" src={tShirt.img} />
                 <Card.Body>
@@ -419,7 +419,7 @@ let jeans = [
         {
              kurtas.map((kurta,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/men's-clothing/kurta/${kurta.title}/${kurta.description}`} className='m-3 mens-clothing-card text-decoration-none'>
                 <Card.Img className='mens-clothing-card-img img-fluid' variant="top" src={kurta.img} />
                 <Card.Body>
@@ -453,7 +453,7 @@ let jeans = [
         {
              jeans.map((jean,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/men's-clothing/jeans/${jean.title}/${jean.description}`} className='m-3 mens-clothing-card text-decoration-none'>
                 <Card.Img className='mens-clothing-card-img img-fluid' variant="top" src={jean.img} />
                 <Card.Body>
@@ -471,7 +471,6 @@ let jeans = [
         </Row>
       </div>
 
-      <Footer/>
 
 
     </div>

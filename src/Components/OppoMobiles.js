@@ -81,7 +81,7 @@ function OppoMobiles()
     {
         oppoMobiles.map((oppoMobile,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/mobiles/oppo/${oppoMobile.title}`} className='m-3 oppo-mobiles-card text-decoration-none'>
                 <Card.Img className='oppo-mobiles-card-img img-fluid' variant="top" src={oppoMobile.img} />
                 <Card.Body>
@@ -100,7 +100,6 @@ function OppoMobiles()
 
 </Row>
 
-    <Footer/>
 
 </div>
 

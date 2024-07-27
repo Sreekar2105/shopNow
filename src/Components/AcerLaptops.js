@@ -90,7 +90,7 @@ function AcerLaptops()
     {
         acerLaptops.map((acerLaptop,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/laptops/acer/${acerLaptop.title}`} className='m-3 acer-laptops-card text-decoration-none'>
                 <Card.Img className='acer-laptops-card-img img-fluid' variant="top" src={acerLaptop.img} />
                 <Card.Body>
@@ -111,7 +111,6 @@ function AcerLaptops()
 
     </Row>
 
-    <Footer/>
     
 </div>
 )

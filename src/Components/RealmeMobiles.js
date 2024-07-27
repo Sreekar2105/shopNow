@@ -80,7 +80,7 @@ function RealmeMobiles()
     {
        realmeMobiles.map((realmeMobile,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/mobiles/realme/${realmeMobile.title}`} className='m-3 realme-mobiles-card text-decoration-none'>
                 <Card.Img className='realme-mobiles-card-img img-fluid' variant="top" src={realmeMobile.img} />
                 <Card.Body>
@@ -99,7 +99,6 @@ function RealmeMobiles()
 
     </Row>
 
-    <Footer/>
 
 </div>
 

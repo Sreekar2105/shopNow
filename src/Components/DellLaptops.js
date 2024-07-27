@@ -88,7 +88,7 @@ function DellLaptops()
     {
         dellLaptops.map((dellLaptop,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/laptops/dell/${dellLaptop.title}`} className='m-3 dell-laptops-card text-decoration-none'>
                 <Card.Img className='dell-laptops-card-img img-fluid' variant="top" src={dellLaptop.img} />
                 <Card.Body>
@@ -109,7 +109,6 @@ function DellLaptops()
 
     </Row>
 
-<Footer/>
 
 </div>
 )

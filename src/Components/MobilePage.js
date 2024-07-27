@@ -214,7 +214,7 @@ function MobilePage(props) {
 
           <h2>Top User Reviews :</h2>
           <hr />
-          <div className='review1 d-flex'>
+          <div className='review d-flex'>
             <img src={userProfile} height={"50px"} width={"50px"} className='mt-2' />
             <div className='d-flex flex-column ms-3 mt-2'>
               <p className='mb-0 fw-semibold username'>{props.user1}</p>
@@ -223,7 +223,7 @@ function MobilePage(props) {
           </div>
 
           <hr />
-          <div className='review1 d-flex'>
+          <div className='review d-flex'>
             <img src={userProfile} height={"50px"} width={"50px"} className='mt-2' />
             <div className='d-flex flex-column ms-3 mt-2'>
               <p className='mb-0 fw-semibold username'>{props.user2}</p>
@@ -232,7 +232,7 @@ function MobilePage(props) {
           </div>
 
           <hr />
-          <div className='review1 d-flex'>
+          <div className='review d-flex'>
             <img src={userProfile} height={"50px"} width={"50px"} className='mt-2' />
             <div className='d-flex flex-column ms-3 mt-2'>
               <p className='mb-0 fw-semibold username'>{props.user3}</p>
@@ -241,7 +241,7 @@ function MobilePage(props) {
           </div>
 
           <hr />
-          <div className='review1 d-flex'>
+          <div className='review d-flex'>
             <img src={userProfile} height={"50px"} width={"50px"} className='mt-2' />
             <div className='d-flex flex-column ms-3 mt-2'>
               <p className='mb-0 fw-semibold username'>{props.user4}</p>
@@ -253,7 +253,6 @@ function MobilePage(props) {
 
       </Row>
 
-      <Footer />
 
     </div >
 

@@ -92,7 +92,7 @@ function NewArrivals() {
       {
         newArrivals.map((newArrival,index)=>
         (
-            <Col>
+            <Col className='mb-3'>
               <Card as={Link} to={`/new-arrivals/${newArrival.title}/${newArrival.description}`} className='m-3 new-arrivals-card text-decoration-none'>
                 <Card.Img className='new-arrivals-card-img img-fluid' variant="top" src={newArrival.img} />
                 <Card.Body>
@@ -114,7 +114,6 @@ function NewArrivals() {
 
       </Row>
 
-      <Footer/>
       
       </>
   )

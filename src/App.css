@@ -159,7 +159,7 @@ body
 {
     width: 250px;
     height:250px;
-    margin-top: 10px;
+    margin-top: 10px; 
     padding: 7px;
 }
 
@@ -495,6 +495,7 @@ body
 .cart-items
 {
     background-color: white;
+    min-height: 82vh;
 }
 
 .subtotal-and-clear-cart
@@ -544,7 +545,8 @@ body
 
 .cart-products
 {
-   border-bottom: 2px solid black;
+    margin-top: 10px;
+   border-top: 2px solid black;
 }
 
 .product-data
@@ -591,6 +593,7 @@ body
 .empty-cart
 {
     background-color: white;
+    min-height: 82vh;
 }
 
 .cart-img
@@ -600,6 +603,7 @@ body
    position:relative;
    animation:moving-cart 4s infinite normal;
 }
+
 
 
 @keyframes moving-cart

@@ -43,6 +43,7 @@ import iqoo4 from '../src/images/iqoo5.png'
 import LaptopPage from './Components/LaptopPage';
 import FashionPage from './Components/FashionPage';
 import CartItems from './Components/CartItems';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -5857,6 +5858,8 @@ function App() {
 
 
       </Routes>
+
+      <Footer/>
 
     </Container>
   );
