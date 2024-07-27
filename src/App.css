@@ -842,6 +842,11 @@ body
     font-size: 1.25rem;
 }
 
+.cart-items
+{
+    min-height: 77vh;
+}
+
 .subtotal-and-clear-cart
 {
     flex-direction: column;
@@ -929,6 +934,11 @@ body
 {
     width: 25%;
     height: 60vh;
+}
+
+.empty-cart
+{
+    min-height: 77vh;
 }
 
 .emoji
@@ -1096,6 +1106,11 @@ body
       font-size: 1.25rem;
    }
 
+   .cart-items
+   {
+     min-height: 79vh;
+   }
+
    .subtotal-and-clear-cart
   {
     flex-direction: column;
@@ -1188,6 +1203,11 @@ body
 {
     width: 25%;
     height: 60vh;
+}
+
+.empty-cart
+{
+    min-height: 79vh;
 }
 
 .emoji
@@ -1357,6 +1377,11 @@ body
       font-size: 1.35rem;
    }
 
+   .cart-items
+  {
+    min-height: 81vh;
+  }
+
   .subtotal-and-clear-cart
  {
     flex-direction: column;
@@ -1443,6 +1468,11 @@ body
 {
     width: 25%;
     height: 60vh;
+}
+
+.empty-cart
+{
+    min-height: 81vh;
 }
 
 .emoji
