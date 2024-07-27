@@ -241,7 +241,8 @@ function MobilePage(props) {
           </div>
 
           <hr />
-          <div className='review d-flex'>
+          <div className='review
+           d-flex'>
             <img src={userProfile} height={"50px"} width={"50px"} className='mt-2' />
             <div className='d-flex flex-column ms-3 mt-2'>
               <p className='mb-0 fw-semibold username'>{props.user4}</p>
