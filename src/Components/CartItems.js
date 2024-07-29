@@ -4,9 +4,7 @@ import { Row, Col, Button } from 'react-bootstrap';
 import cart from '../images/cart.png'
 import emoji from '../images/emoji.png'
 import { addToCart, cartTotalAmount, clearCart, decreaseQuantity, removeFromCart } from './cartSlice';
-import Footer from './Footer';
 import bin from '../images/delete.png'
-import { px } from 'framer-motion';
 
 function CartItems() {
   // window.scrollTo(0, 0);

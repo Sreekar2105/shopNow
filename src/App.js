@@ -1,4 +1,3 @@
-import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home';
 import { Container } from 'react-bootstrap';
