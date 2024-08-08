@@ -1,12 +1,7 @@
-# ShopNow E-commerce Platform
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
-## Description
-ShopNow is an e-commerce platform that offers a wide range of products across various categories like electronics, fashion, and accessories. This project demonstrates a fully functional front-end application built with React.
-
-## Features
-- Product Categories: Mobiles, laptops, men's and women's fashion, footwear, accessories.
-- Shopping Cart: Add, remove products in the cart.
-- Responsive Design: Adapted for desktop and mobile devices.
+Available Scripts
 
 
 In the project directory, you can run:
