@@ -5,7 +5,7 @@ ShopNow is an e-commerce platform that offers a wide range of products across va
 
 ## Features
 - Product Categories: Mobiles, laptops, men's and women's fashion, footwear, accessories.
-- Shopping Cart: Add, remove, and update products in the cart.
+- Shopping Cart: Add, remove products in the cart.
 - Responsive Design: Adapted for desktop and mobile devices.
 - Real-Time Search: Quick product search across categories.
 
